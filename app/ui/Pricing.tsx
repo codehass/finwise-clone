@@ -6,8 +6,9 @@ export default function Pricing() {
     <section id="pricing" className="flex flex-col items-center justify-start gap-4 w-full pt-20">
       <p className="font-medium">Trusted by <span className="text-blue-600 ">2000+ </span>customers worldwide</p>
       <div>
-        <div>
-          <Image src="/notion.svg" alt="notion logo" width={50} height={50} className="mx-auto" />
+        <div className="flex justify-around items-center text-gray-400">
+          <Image src="/notion.svg" alt="notion logo" width={40} height={40} className="mx-auto text-gray-400" />
+          <p className="font-extrabold text-3xl">Notion</p>
         </div>
       </div>
       <div className="flex flex-col-reverse md:flex-row">
