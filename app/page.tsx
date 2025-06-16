@@ -1,15 +1,17 @@
 import Image from "next/image";
 import Navbar from "./ui/Navbar";
+import HeroSection from "./ui/HeroSection";
 import Features from "./ui/Features";
-import Pricing from "./ui/Pricing";
+import LogosSection from "./ui/LogosSection";
 
 export default function Home() {
 	return (
 		<>
 			<Navbar />
 			<main className="flex flex-col items-center justify-center">
+				<HeroSection />
+				<LogosSection />
 				<Features />
-				<Pricing />
 				<section
 					id="testimonials"
 					className="flex flex-col items-center justify-center h-screen bg-green-300"
