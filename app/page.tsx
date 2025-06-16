@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Navbar from "./ui/Navbar";
-import HeroSection from "./ui/HeroSection";
 import Features from "./ui/Features";
 import LogosSection from "./ui/LogosSection";
+import { HeroSection } from "./ui/HeroSection";
 
 export default function Home() {
 	return (
