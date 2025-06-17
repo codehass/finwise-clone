@@ -5,10 +5,10 @@ export default function Features() {
 	return (
 		<section
 			id="features"
-			className="flex flex-col items-center justify-start gap-4 w-full pt-20"
+			className="flex items-center justify-start pt-20 max-w-7xl"
 		>
-			<div className="flex flex-col-reverse md:flex-row">
-				<Image src="/mockup-1.webp" alt="features" width={500} height={300} />
+			<div className="flex justify-center items-center lg:gap-20 max-w-lg">
+				<Image src="/mockup-1.webp" alt="features" width={384} height={762} />
 				<div className="flex flex-col items-center justify-center gap-8">
 					<h3 className="text-3xl font-bold text-center">Smart Budgeting</h3>
 					<p className="text-center text-gray-700">
